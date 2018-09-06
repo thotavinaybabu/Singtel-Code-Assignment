@@ -3,10 +3,14 @@ package com.java.singtel;
 public class Solution {
 
 	public static void main(String[] args) {
-		Bird bird = new Bird();
-		bird.walk();
-		bird.fly();
-		bird.sing();
+		Animal myDuck =  new Duck();
+		myDuck.walk();
+		myDuck.fly();
+		myDuck.sing();
+		Animal myChicken =  new Chicken();
+		myChicken.walk();
+		myChicken.fly();
+		myChicken.sing();
 	}
 
 }
