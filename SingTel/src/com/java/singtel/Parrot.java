@@ -8,20 +8,22 @@ public class Parrot extends Bird{
 	 this.animal =animal;
 	  
    }
-   public void fly() {
+   public boolean fly() {
 		System.out.println("I am flying");
+		return true;
 		}
 
-	  public void sing() {
+	  public boolean sing() {
 
 		animal.sing();
+		return true;
 	}
 
 	@Override
-	public void walk() {
+	public boolean walk() {
 		
 			System.out.println("I am walking");
 		
-		
+		return true;
 	}
 }

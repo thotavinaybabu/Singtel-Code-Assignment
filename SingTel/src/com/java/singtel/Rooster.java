@@ -1,12 +1,14 @@
 package com.java.singtel;
 
 public class Rooster extends Chicken {
-	public void fly() {
+	public boolean fly() {
 		System.out.println("I cannot fly");
+		return false;
 		}
 
-	  public void sing() {
+	  public boolean sing() {
 
 		System.out.println("Cock-a-doodle-doo");
+		return true;
 	}
 }

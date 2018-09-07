@@ -1,20 +1,28 @@
 package com.java.singtel;
 
 public class Bird implements Animal {
-	 public void fly() {
+	 public boolean fly() {
 		System.out.println("I am flying");
+		return true;
 		}
 
-	  public void sing() {
+	  public boolean sing() {
 
 		System.out.println("I am Singing");
+		return true;
 	}
 
 	@Override
-	public void walk() {
+	public boolean walk() {
 		
 			System.out.println("I am walking");
+		return true;
 		
-		
+	}
+
+	@Override
+	public boolean swim() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }

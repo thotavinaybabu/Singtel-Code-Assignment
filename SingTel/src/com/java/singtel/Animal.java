@@ -1,8 +1,8 @@
 package com.java.singtel;
 
 interface  Animal {
-	public void fly();
-	public void sing();
-	public void walk();
-	
+	public boolean fly();
+	public boolean sing();
+	public boolean walk();
+	public boolean swim();
 }

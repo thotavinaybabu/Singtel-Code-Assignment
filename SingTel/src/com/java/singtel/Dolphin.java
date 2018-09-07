@@ -9,26 +9,26 @@ public class Dolphin implements Animal{
 		this.fish =fish;
 	}
 	@Override
-	public void fly() {
+	public boolean fly() {
 		
 		fish.fly();
-
+		return fish.fly();
 	}
 
 	@Override
-	public void sing() {
+	public boolean sing() {
 		fish.sing();
-		
+		return false;
 	}
 
 	@Override
-	public void walk() {
+	public boolean walk() {
 		fish.walk();
-		
+		return false;
 	}
-	public void swim() {
+	public boolean swim() {
 		fish.swim();
-		
+		return true;
 	}
 
 }

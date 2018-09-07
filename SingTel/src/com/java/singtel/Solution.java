@@ -1,5 +1,8 @@
 package com.java.singtel;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Solution {
 
 	public static void main(String[] args) {
@@ -72,7 +75,18 @@ public class Solution {
 	   dolphin.sing();
 	   dolphin.swim();
 	   dolphin.walk();
-	   
+	   System.out.println("----------------BUTTERFLY----------------");
+	   Butterfly myButterFly =  new Butterfly();
+	   myButterFly.setCaterpiller(false);
+	   myButterFly.fly();
+	   myButterFly.sing();
+	   myButterFly.walk();
+	   System.out.println("----------------CATERPILLAR----------------");
+	   Butterfly myCaterpillar =  new Butterfly();
+	   myCaterpillar.setCaterpiller(true);
+	   myCaterpillar.fly();
+	   myCaterpillar.sing();
+	   myCaterpillar.walk();
 	}
 
 }
