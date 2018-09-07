@@ -1,13 +1,20 @@
 package com.java.singtel;
 
-public class Bird implements Animal {
-	 public void fly() {
+public class Parrot extends Bird{
+ 
+   Animal animal;
+   void livingWith(Animal animal)
+   {
+	 this.animal =animal;
+	  
+   }
+   public void fly() {
 		System.out.println("I am flying");
 		}
 
 	  public void sing() {
 
-		System.out.println("I am Singing");
+		animal.sing();
 	}
 
 	@Override

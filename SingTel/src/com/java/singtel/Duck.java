@@ -1,11 +1,11 @@
 package com.java.singtel;
 
 public class Duck extends Bird{
-	void fly() {
+	public void fly() {
 		System.out.println("I am flying");
 		}
 
-	  void sing() {
+	  public void sing() {
 
 		System.out.println("Quack, quack");
 	}
