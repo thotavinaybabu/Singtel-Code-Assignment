@@ -3,21 +3,21 @@
 
 Singtel-Code-Assignment - A. Let’s start with the basics
 
-## Assignment A Let’s start with the basic- 2
-Now, we have 2 special kinds of birds: the Duck and the Chicken... Can you
-implement them to make their own special sound?
+## Assignment A Let’s start with the basic- 3
+3. Now how would you model a rooster?
 
 ```
-a. A duck says: “Quack, quack”
-b. A duck can swim
-c. A chicken says: “Cluck, cluck”
-d. A chicken cannot fly (assumption: its wings are clipped but ignore that)
+a. A rooster says: “Cock-a-doodle-doo”
+b. How is the rooster related to the chicken?
+c. Can you think of other ways to model a rooster without using inheritance?
 ```
 ```
-YES .Added Duck and Chicken classes - which extend Bird class 
+#### Chicken is genderless, hen is the female, rooster is male.So rooster and hen are chickens.Created Rooster.java class extending Chicken.java class.
+#### Another way to model a rooster without using inheritence is to use delegation.In Delegation we use an object of another class(here chicken class) as an instance variable, and forward messages to the instance (RoosterDelegation.java).
 
 ```
-
+![Class Diagram](ClassDiagram.jpeg?raw=true "Class Diagram")
+```
 ### Prerequisites
 ```
 JAVA JRE/JDK and Eclipse IDE 
