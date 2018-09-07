@@ -1,36 +1,54 @@
 # Singtel-Code-Assignment
 # Project Title
 
-Singtel-Code-Assignment - A. Let’s start with the basics
+Singtel-Code-Assignment - B. Model fish as well as other swimming animals
 
-## Assignment A Let’s start with the basic- 4
-4. Can you model a parrot? We are specifically interested in three parrots, one that
-lived in a house with dogs one in a house with cats, the other lived on a farm next to
-the rooster
+## Assignment B. Model fish as well as other swimming animals
+1. In addition to the birds, can you model a fish?
 
 ```
-a. A parrot living with dogs says: “Woof, woof”
-b. A parrot living with cats says: “Meow”
-c. A parrot living near the rooster says: “Cock-a-doodle-doo”
-d. How do you keep the parrot maintainable? What if we need another parrot
-lives near a Duck? Or near a phone that rings frequently?
+a. Fishes don’t sing
+b. Fishes don’t walk
+c. Fishes can swim
 ```
+2. Can you specialize the fish as a Shark and as a Clownfish?
+
 ```
-Implemented Parrot which uses delegation(also Composition) with the method - "livingWith".One has to pass Instance of the Animal that the Parrot is living to get the desire behaviour (singing).Even if the parrot is living with Ducks, it will work.
+a. Sharks are large and grey
+b. Clownfish are small and colourful (orange)
+c. Clownfish make jokes
+d. Sharks eat other fish
+
+```
+```diff
+created a Fish interface. Created classes Shark and Clownfish which implement
+Fish Inteface.
+
+```
+3. Dolphins are not exactly fish, yet, they are good swimmers
+```
+a. Can you model a dolphin that swims without inheriting from a fish class?
+b. How do you avoid duplicating code or introducing unneeded overhead?
+```
+
+```diff
+Using Composition(over inheritence) solves the problem .With this we can also avoid duplicating the code
 
 ```
 ![Class Diagram](ClassDiagram.jpeg?raw=true "Class Diagram")
-```
+
 ### Prerequisites
+
 ```
 JAVA JRE/JDK and Eclipse IDE 
 ```
 ### Installing
+
 ```
 Eclipse IDE - import the Project as JAVA Project and add the dependencies(if required) 
 ```
 
-## Running the tests
+ ## Running the tests
 
 Run either the Test Class - com.java.singtel.BirdTest.java or Solution.java
 
@@ -40,12 +58,11 @@ Run either the Test Class - com.java.singtel.BirdTest.java or Solution.java
 
 * [Eclipse IDE ](https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-ide-java-developers) - IDE for JAVA
 
-
 ## Versioning
 
  see the [tags on this repository](https://github.com/thotavinaybabu/Singtel-Code-Assignment). 
 
 ## Author
 
-* **VINAY BABU THOTA** - *Initial Checkin* - [SINGTEL-CODE_ASSIGNMENT](https://github.com/thotavinaybabu/Singtel-Code-Assignment)
+***VINAY BABU THOTA** - *Initial Checkin* - [SINGTEL-CODE_ASSIGNMENT](https://github.com/thotavinaybabu/Singtel-Code-Assignment)
 
