@@ -2,7 +2,7 @@ package com.java.singtel;
 
 public class Parrot extends Bird{
  
-   Animal animal;
+   Animal animal=null;
    void livingWith(Animal animal)
    {
 	 this.animal =animal;
@@ -14,7 +14,10 @@ public class Parrot extends Bird{
 		}
 
 	  public boolean sing() {
-
+if(null==animal)
+{
+	 this.livingWith(new Duck());
+}
 		animal.sing();
 		return true;
 	}

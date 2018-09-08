@@ -1,28 +1,44 @@
 # Singtel-Code-Assignment
 # Project Title
 
-Singtel-Code-Assignment - D. Model animals that change their behaviour over time
+Singtel-Code-Assignment - E. Counting animals
 
-## Assignment D. Model animals that change their behaviour over time
-1. Can you model a butterfly?
-
-```
-a. A butterfly can fly
-b. A butterfly does not make a sound
+## Assignment E. Counting animals
+Suppose you have an array of animals, e.g.
 
 ```
+Animal[] animals = new Animal[]{
+new Bird(),
+new Duck(),
+new Chicken(),
+new Rooster(),
+new Parrot(),
+new Fish(),
+new Shark(),
+new Clownfish(),
+new Dolhpin(),
+new Frog(),
+new Dog(),
+new Butterfly(),
+new Cat()
+};
 
-2. Can you optimize your model to account for the metamorphosis from caterpillar to butterfly?
+```
+
+Note: The above instantiation may be different if you chose to set up your object model
+differently… (hopefully you did)
 
 
 ```
-a. A caterpillar cannot fly
-b. A caterpillar can walk (crawl)
+1. Can you share the code to count:
+a. how many of these animals can fly?
+b. how many of these animals can walk?
+c. how many of these animals can sing?
+d. how many of these animals can swim?
 
 ```
 ```diff
-Created butterfly class that implements animal that can fly and does not make sound.Set the behaviour as property - "isCaterpiller".Just set the property to true or false -  to account for the metamorphosis from caterpillar to
-butterfly.
+Added code in  "solution.java"" for counting the number of anmals that can fly,walk,sing and swim for all the animals that were implemented.
 
 ```
 
