@@ -1,5 +1,7 @@
 package com.java.singtel;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -120,6 +122,31 @@ public class Solution {
 	   System.out.println("Number of Animals that can walk: " + countWalk);
 	   System.out.println("Number of Animals that can sing: " + countSing);
 	   System.out.println("Number of Animals that can swim: " + countSwim);
+	   System.out.println("---------------------------Test Language- ROOSTER--------------------"); 
+	   
+	   Rooster myRstr = new Rooster();
+	   List<String> arrayList = new ArrayList<String>(){{
+		    add("English");
+	        add("Danish");
+	        add("Dutch");
+	        add("Finnish");
+	        add("French");
+	        add("German");
+	        add("Greek");
+	        add("Hebrew");
+	        add("Hungarian");
+	        add("Italian");
+	        add("Japanese");
+	        add("Portuguese");
+	        add("Russian");
+	        add("Swedish");
+	        add("Turkish");
+	        add("Urdu");
+		}}; 
+		
+		for (String lang : arrayList) {
+			myRstr.sing(lang);
+		}
 	}
 
 }
